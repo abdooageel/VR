@@ -1,0 +1,25 @@
+{
+  "development": {
+    "dialect": "mysql",
+    "username": "root",
+    "password": "102030",
+    "database": "vr",
+    "host": "localhost",
+    "logging": false
+  },
+  "test": {
+    "username": "root",
+    "password": "102030",
+    "database": "vr_test",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "102030",
+    "database": "vr_production",
+    "host": "localhost",
+    "dialect": "mysql"
+  }
+
+}
